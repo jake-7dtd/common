@@ -1,1 +1,42 @@
-
+<configs>
+	
+	<append xpath="//entity_class[ (starts-with(@name,'zombieSoldier')) or (@name='zombieDemolition') ]/property[@name='Tags']/@value">,jake_zdr67</append>
+	
+	<setattribute xpath="//entity_class[ (starts-with(@name,'zombieSoldier')) or (@name='zombieDemolition') ]/effect_group[@name='Base Effects']/passive_effect[ (@name='PhysicalDamageResist') and (@operation='base_set') ]" name="value">67</setattribute>
+	
+	
+	
+	<append xpath="//entity_class[ (starts-with(@name,'zombieUtilityWorker')) or (starts-with(@name,'zombieBiker')) ]/property[@name='Tags']/@value">,jakez_dr42</append>
+	
+	<setattribute xpath="//entity_class[ (starts-with(@name,'zombieUtilityWorker')) or (starts-with(@name,'zombieBiker')) ]/effect_group[@name='Base Effects']/passive_effect[ (@name='PhysicalDamageResist') and (@operation='base_set') ]" name="value">42</setattribute>
+	
+	
+	
+	<append xpath="//entity_class[ not(contains(@name,'Template')) and not(contains(@name,'Utility')) and not(contains(@name,'Biker')) and not(contains(@name,'Soldier')) and not(contains(@name,'Demolition')) and (starts-with(@name,'zombie')) or (starts-with(@name,'animalZombie')) ]/property[@name='Tags']/@value">,jake_zdr22</append>
+	
+	<append xpath="//entity_class[ not(contains(@name,'Template')) and not(contains(@name,'Utility')) and not(contains(@name,'Biker')) and not(contains(@name,'Soldier')) and not(contains(@name,'Demolition')) and (starts-with(@name,'zombie')) or (starts-with(@name,'animalZombie')) ]/effect_group[@name='Base Effects']">
+		<passive_effect name="PhysicalDamageResist" operation="base_set" value="22"/>
+	</append>
+	
+	
+	
+	<append xpath="//entity_class[@name='playerMale']">
+		<effect_group>
+		
+			<passive_effect name="DamageModifier" operation="perc_add" value="2.1" tags="head">
+				<requirement name="EntityTagCompare" target="other" tags="jake_zdr67"/>
+			</passive_effect>
+			
+			<passive_effect name="DamageModifier" operation="perc_add" value="1.9" tags="head">
+				<requirement name="EntityTagCompare" target="other" tags="jakez_dr42"/>
+			</passive_effect>
+			
+			<passive_effect name="DamageModifier" operation="perc_add" value="1.7" tags="head">
+				<requirement name="EntityTagCompare" target="other" tags="jake_zdr22"/>
+			</passive_effect>
+			
+		</effect_group>
+	</append>
+	
+	
+</configs>
