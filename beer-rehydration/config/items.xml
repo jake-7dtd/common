@@ -1,0 +1,10 @@
+<configs>
+	
+	<insertAfter xpath="//item[ (@name='drinkJarBeer') or (@name='beerNolsonCanuck') or (@name='ulmDrinkPlasticBottleBeer') ]/effect_group[1]/requirement[ (@name='NotHasBuff') and (@buff='buffIsOnFire') ]">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$waterAmountAdd" operation="add" value="20" />
+		<display_value name="$waterAmountAdd" value="20" />
+	</insertAfter>
+	
+	<append xpath="//item[ (@name='drinkJarBeer') or (@name='beerNolsonCanuck') or (@name='ulmDrinkPlasticBottleBeer') ]/effect_group/triggered_effect[ (@trigger='onSelfPrimaryActionEnd') and (@action='AddBuff') and (@buff='buffBeer') ]/@buff">,buffProcessConsumables</append>
+	
+</configs>
