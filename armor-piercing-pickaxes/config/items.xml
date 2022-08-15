@@ -1,0 +1,31 @@
+<configs>
+	
+	<append xpath="//item[ (@name='ulmToolPickaxeStone') or (@name='DFmeleeToolPickaxeScrap') ]">
+		<effect_group name="armor piercing effect">
+			<requirement name="EntityTagCompare" target="other" tags="zombie,animal" />
+			<passive_effect operation="perc_add" name="TargetArmor" value="-.1" /><display_value name="dTargetArmor" value="-.1" />
+		</effect_group>
+	</append>
+	
+	<append xpath="//item[ (@name='meleeToolPickT1IronPickaxe') or (@name='ulmToolPickaxeScrapIron') or (@name='ulmToolPickaxeIceBreaker') ]">
+		<effect_group name="armor piercing effect">
+			<requirement name="EntityTagCompare" target="other" tags="zombie,animal" />
+			<passive_effect operation="perc_add" name="TargetArmor" value="-.15" /><display_value name="dTargetArmor" value="-.15" />
+		</effect_group>
+	</append>
+	
+	<append xpath="//item[@name='meleeToolPickT2SteelPickaxe']">
+		<effect_group name="armor piercing effect">
+			<requirement name="EntityTagCompare" target="other" tags="zombie,animal" />
+			<passive_effect operation="perc_add" name="TargetArmor" value="-.2" /><display_value name="dTargetArmor" value="-.2" />
+		</effect_group>
+	</append>
+	
+	<append xpath="//item[ (@name='ulmToolPickaxeTitanium') or (@name='DFmeleeToolPickaxeTitanium') ]">
+		<effect_group name="armor piercing effect">
+			<requirement name="EntityTagCompare" target="other" tags="zombie,animal" />
+			<passive_effect operation="perc_add" name="TargetArmor" value="-.25" /><display_value name="dTargetArmor" value="-.25" />
+		</effect_group>
+	</append>
+	
+</configs>
