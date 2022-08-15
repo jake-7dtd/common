@@ -1,0 +1,7 @@
+<configs>
+	
+	<append xpath="//lootgroup[@name='groupStarterKit']">
+		<item name="resourceYuccaFibers" count="75,90" />
+	</append>
+	
+</configs>

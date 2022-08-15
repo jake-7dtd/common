@@ -7,7 +7,7 @@
 	<setattribute xpath="//block[@name='hayBaleSquare']/drop[@event='Harvest']" name="count">32,64</setattribute>
 	
 	<append xpath="//block[@name='hayBaleRound']">
-		<drop event="Harvest" name="resourceYuccaFibers" count="48,96" tag="allHarvest">
+		<drop event="Harvest" name="resourceYuccaFibers" count="48,96" tag="allHarvest" />
 	</append>
 	
 	<append xpath="//block[ not(starts-with(@name, 'plantedMushroom3Harvest')) and ( (starts-with(@name, 'planted')) and ((substring(@name, string-length(@name) - string-length('Harvest') + 1) = 'Harvest') or (substring(@name, string-length(@name) - string-length('HarvestPlayer') + 1) = 'HarvestPlayer')) ) ]">
