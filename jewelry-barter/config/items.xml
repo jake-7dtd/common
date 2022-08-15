@@ -1,0 +1,6 @@
+<configs>
+	<append xpath="//item[@name='apparelFacialPiercings']/effect_group">
+		<passive_effect name="BarteringBuying" operation="base_add" value="0.05"/>
+		<passive_effect name="BarteringSelling" operation="base_add" value="0.05"/>
+	</append>
+</configs>
