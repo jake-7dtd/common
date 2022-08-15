@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Beer Rehydration for 7dtd" />
+		<Description value="Gives beer the same hydrating properties as boiled water." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/common/tree/main/beer-rehydration" />
+	</ModInfo>
+</xml>
