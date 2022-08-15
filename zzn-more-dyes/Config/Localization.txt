@@ -1,0 +1,7 @@
+﻿Key,Source,Context,English
+
+jakeModDyeDarkOrange,item_modifiers,mod,"Dye: Dark Orange"
+jakeModDyeAussiePurple,item_modifiers,mod,"Dye: Aussie Purple"
+jakeModDyeDarkTurquoise,item_modifiers,mod,"Dye: Dark Turquoise"
+jakeModDyeSkyBlue,item_modifiers,mod,"Dye: Sky Blue"
+jakeModDyeLimeGreen,item_modifiers,mod,"Dye: Lime Green"
