@@ -1,0 +1,19 @@
+<configs>
+	
+	<remove xpath="//item[@name='apparelNightvisionGoggles']/effect_group/triggered_effect[@action='ModifyScreenEffect']" />
+	
+	<insertBefore xpath="//item[@name='apparelNightvisionGoggles']/effect_group/triggered_effect[ (@action='AddPart') and (@part='HeadLightTPV') ]">
+		<triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" effect_name="Bright" intensity="0.75" fade="0"/>
+		<triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="0"/>
+		
+		<triggered_effect trigger="onSelfItemActivate" action="ModifyScreenEffect" intensity="1" fade="0" effect_name="Grayscale"/>
+		<triggered_effect trigger="onSelfItemDeactivate" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Grayscale"/>
+		
+		<triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="0"/>
+		<triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Grayscale"/>
+		
+		<triggered_effect trigger="onSelfItemActivate" action="PlaySound" sound="nightvision_toggle" play_in_head="true"/>
+		<triggered_effect trigger="onSelfItemDeactivate" action="PlaySound" sound="nightvision_toggle" play_in_head="true"/>
+	</insertBefore>
+	
+	</configs>
