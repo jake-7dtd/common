@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Jewelry Barter for 7dtd" />
+		<Description value="Gives facial jewelry the same barter buff as the cigar." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/common/upload/main/jewelry-barter" />
+	</ModInfo>
+</xml>
