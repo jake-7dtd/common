@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Armor Piercing Pickaxes for 7dtd" />
+		<Description value="The modlet allows pickaxes to pierce 10 to 25% of armor." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/common/tree/main/armor-piercing-pickaxes" />
+	</ModInfo>
+</xml>
