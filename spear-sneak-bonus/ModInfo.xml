@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Spear Sneak Bonus for 7dtd" />
+		<Description value="The modlet grants spears 400% sneak damage bonus. This should put the damage of thrown spears on par with the primitive bow. Considering how underpowered spears are, it almost seems a hotfix." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/common/upload/main/spear-sneak-bonus" />
+	</ModInfo>
+</xml>
