@@ -1,0 +1,12 @@
+﻿Key,Source,Context,English
+
+jakeModDyeFieryOrange,item_modifiers,mod,"Dye: Fiery Orange"
+jakeModDyeCrimson,item_modifiers,mod,"Dye: Crimson"
+jakeModDyeAussiePurple,item_modifiers,mod,"Dye: Aussie Purple"
+jakeModDyeDarkTurquoise,item_modifiers,mod,"Dye: Dark Turquoise"
+jakeModDyeSkyBlue,item_modifiers,mod,"Dye: Sky Blue"
+jakeModDyeLimeGreen,item_modifiers,mod,"Dye: Lime Green"
+jakeModDyeGreenishYellow,item_modifiers,mod,"Dye: Greenish Yellow"
+jakeModDyeMulberry,item_modifiers,mod,"Dye: Mulberry"
+jakeModRacingGreen,item_modifiers,mod,"Dye: British Racing Green"
+jakeModRichBlue,item_modifiers,mod,"Dye: Rich Blue"
