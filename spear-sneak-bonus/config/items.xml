@@ -1,0 +1,13 @@
+<configs>
+	
+	<append xpath="//item[ (substring(@name, string-length(@name) - string-length('Spear') + 1) = 'Spear') or (@name='ulmMeleeSpearWood') or (@name='ulmMeleeSpearTitanium') or (@name='DFmeleeWpnSpearScrap') or (@name='DFmeleeSpearTitanium') or (@name='DFmeleeTazasSpear') ]">
+		<effect_group name="sneak damage bonus">
+			<requirement name="CVarCompare" cvar="_crouching" operation="Equals" value="1" />
+			<requirement name="CVarCompare" cvar="_notAlerted" operation="GT" value="0" target="other" />
+			<passive_effect name="DamageBonus" operation="base_add" value="4" />
+			<passive_effect name="EntityDamage" operation="perc_add" value="4" />
+			<display_value name="dEntityDamageSneak" value="4" />
+		</effect_group>
+	</append>
+	
+</configs>
