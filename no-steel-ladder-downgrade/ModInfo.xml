@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's No Steel Ladder Downgrade for 7dtd" />
+		<Description value="This modlet disables the downgrade of steel ladders. While block downgrade has been disabled as of Alpha 20, the steel ladder seems to have been omitted." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/common/tree/main/no-steel-ladder-downgrade" />
+	</ModInfo>
+</xml>
