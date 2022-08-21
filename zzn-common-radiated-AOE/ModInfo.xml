@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's Radiated AOE for 7dtd" />
+		<Description value="The modlet gives radiated zombies an area-of-effect damage-over-time effect." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-radiated-AOE" />
+	</ModInfo>
+</xml>

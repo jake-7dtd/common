@@ -1,0 +1,27 @@
+<configs>
+	
+	<remove xpath="//buff[@name='buffKnockOut']"/>
+	
+	<append xpath="/buffs">
+		<buff name="buffKnockOut" name_key="KnockOut" description_key="You have been knocked out" tooltip_key="You have been knocked out" icon="ui_game_symbol_stunned">
+			<damage_type value="knockout"/>
+			<stack_type value="replace"/>
+			<duration value="5"/>
+			<effect_group>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="1" effect_name="Blur"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Blur"/>
+				<triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" effect_name="FadeToBlack"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" effect_name="FadeToBlack"/>
+				<triggered_effect trigger="onSelfBuffStart" action="Ragdoll" duration="5">
+					<requirement name="!EntityTagCompare" tags="trader"/>
+				</triggered_effect>
+				<triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="buff_stunned" play_in_head="true"/>
+				<triggered_effect trigger="onSelfBuffRemove" action="FadeOutSound" sound="buff_stunned" play_in_head="true"/>
+				<triggered_effect trigger="onSelfLeaveGame" action="StopSound" sound="buff_stunned" play_in_head="true"/>
+				<triggered_effect trigger="onSelfEnteredGame" action="PlaySound" sound="buff_stunned" play_in_head="true"/>
+			</effect_group>
+		</buff>
+		
+	</append>
+	
+</configs>
