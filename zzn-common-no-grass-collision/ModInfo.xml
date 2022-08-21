@@ -4,7 +4,7 @@
 		<Name value="Jake's No Grass Collision for 7dtd" />
 		<Description value="The modlet removes the collision between melee weapons and grass. Plant fibers are instead gathered from hay bales or by picking plants." />
 		<Author value="jake2097152" />
-		<Version value="1.1" />
-		<Website value="https://github.com/jake-7dtd/common/tree/main/no-grass-collision" />
+		<Version value="1.2" />
+		<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-no-grass-collision" />
 	</ModInfo>
 </xml>
