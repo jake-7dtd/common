@@ -1,10 +1,10 @@
 <configs>
 	
-	<append xpath="//item[@name='meleeHandZombieDemolition')]/property[@class='Action0']">
+	<append xpath="//item[@name='meleeHandZombieDemolition']/property[@class='Action0']">
 		<property name="Buff" value="buffBlackOut"/>
 	</append>
 	
-	<append xpath="//item[@name='meleeHandZombieDemolition')]/effect_group[@name='meleeHandZombieStrong']">
+	<append xpath="//item[@name='meleeHandZombieDemolition']/effect_group[@name='meleeHandZombieStrong']">
 		<passive_effect name="BuffProcChance" operation="base_set" value=".09" tags="buffKnockOut"/>
 	</append>
 	
