@@ -47,9 +47,6 @@
 		
 		<triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" effect_name="Bright" intensity="0" fade="0"/>
 		<triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Grayscale"/>
-		
-		<triggered_effect trigger="onSelfItemActivate" action="PlaySound" sound="nightvision_toggle" play_in_head="true"/>
-		<triggered_effect trigger="onSelfItemDeactivate" action="PlaySound" sound="nightvision_toggle" play_in_head="true"/>
 	</insertBefore>
 	
 	</configs>
