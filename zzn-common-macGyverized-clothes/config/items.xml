@@ -1,0 +1,39 @@
+<configs>
+	<setattribute xpath="//item[@name='apparelPlantFiberHood']/property[@name='Tags']" name="value">head,armor,armorHead,lightArmor,padded,canHaveCosmetic</setattribute>
+	<setattribute xpath="//item[@name='apparelPlantFiberHood']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelPlantFiberShoes']/property[@name='Tags']" name="value">lowerbody,feet,armor,armorFeet,lightArmor,padded,canHaveCosmetic</setattribute>
+	<setattribute xpath="//item[@name='apparelPlantFiberShoes']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelPlantFiberGloves']/property[@name='Tags']" name="value">upperbody,hands,armor,armorHands,lightArmor,padded,canHaveCosmetic</setattribute>
+	<setattribute xpath="//item[@name='apparelPlantFiberGloves']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelPlantFiberHat']/property[@name='Tags']" name="value">head,armor,armorHead,lightArmor,padded,canHaveCosmetic</setattribute>
+	<setattribute xpath="//item[@name='apparelPlantFiberHat']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelHazmatGloves']/property[@name='Tags']" name="value">upperbody,hands,armor,armorHands,lightArmor,padded,canHaveCosmetic,hazmatGloves</setattribute>
+	<setattribute xpath="//item[@name='apparelHazmatGloves']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+		
+	<setattribute xpath="//item[@name='apparelHazmatMask']/property[@name='Tags']" name="value">head,armor,armorHead,lightArmor,padded,canHaveCosmetic,hazmatHelmet</setattribute>
+	<setattribute xpath="//item[@name='apparelHazmatMask']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelHazmatPants']/property[@name='Tags']" name="value">lowerbody,legs,armor,armorLegs,lightArmor,padded,canHaveCosmetic,hazmatPants,pocketMod</setattribute>
+	<setattribute xpath="//item[@name='apparelHazmatPants']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelHazmatBoots']/property[@name='Tags']" name="value">lowerbody,feet,armor,armorFeet,lightArmor,padded,canHaveCosmetic,hazmatBoots</setattribute>
+	<setattribute xpath="//item[@name='apparelHazmatBoots']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelHazmatJacket']/property[@name='Tags']" name="value">upperbody,chest,armor,armorChest,lightArmor,padded,canHaveCosmetic,hazmatShirt,pocketMod</setattribute>
+	<setattribute xpath="//item[@name='apparelHazmatJacket']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelGhillieSuitHood']/property[@name='Tags']" name="value">head,armor,armorHead,lightArmor,padded,canHaveCosmetic</setattribute>
+	<setattribute xpath="//item[@name='apparelGhillieSuitHood']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelGhillieSuitJacket']/property[@name='Tags']" name="value">upperbody,chest,armor,armorChest,lightArmor,padded,canHaveCosmetic,pocketMod</setattribute>
+	<setattribute xpath="//item[@name='apparelGhillieSuitJacket']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	<setattribute xpath="//item[@name='apparelGhillieSuitPants']/property[@name='Tags']" name="value">lowerbody,legs,armor,armorLegs,lightArmor,padded,canHaveCosmetic,pocketMod</setattribute>
+	<setattribute xpath="//item[@name='apparelGhillieSuitPants']/effect_group/passive_effect[@name='ModSlots']" name="value">1</setattribute>
+	
+	
+</configs>
