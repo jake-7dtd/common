@@ -1,7 +1,5 @@
 <configs>
 	
-	<remove xpath="//buff[@name='buffKnockOut']"/>
-	
 	<append xpath="/buffs">
 		<buff name="buffKnockOut" name_key="KnockOut" description_key="You have been knocked out" tooltip_key="You have been knocked out" icon="ui_game_symbol_stunned">
 			<damage_type value="knockout"/>

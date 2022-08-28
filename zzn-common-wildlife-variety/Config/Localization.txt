@@ -1,0 +1,13 @@
+Key,english
+animalBearBeta,Bear
+animalBearOmega,Bear
+animalBearJuvenile,Juvenile Bear
+animalZombieBearBeta,Zombie Bear
+animalZombieBearOmega,Zombie Bear
+animalZombieBearJuvenile,Juvenile Zombie Bear
+animalMountainLionBeta,Mountain Lion
+animalMountainLionOmega,Mountain Lion
+animalMountainLionJuvenile,Juvenile Mountain Lion
+animalDireWolfBeta,Dire Wolf
+animalDireWolfOmega,Dire Wolf
+animalDireWolfJuvenile,Juvenile Dire Wolf
