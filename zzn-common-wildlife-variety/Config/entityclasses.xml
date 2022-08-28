@@ -1,0 +1,263 @@
+<configs>
+	
+	<append xpath="/entity_classes">
+		
+		<entity_class name="animalBearBeta" extends="animalBear">
+			<property name="SizeScale" value=".95"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1500" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalBearOmega" extends="animalBear">
+			<property name="SizeScale" value=".9"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			<property name="HandItem" value="meleeHandAnimalBearJuvenile" />
+			
+			<property name="AITask-1" value="BreakBlock" />
+			<property name="AITask-2" value="ApproachAndAttackTarget" data="class=EntityNPC,20,EntityPlayer,20" />
+			<property name="AITask-3" value="RunawayWhenHurt" data="runChance=.4;healthPer=.1;healthPerMax=.4" />
+			<property name="AITask-4" value="ApproachSpot" />
+			<property name="AITask-5" value="Look" />
+			<property name="AITask-6" value="Wander" />
+			<property name="AITarget-1" value="SetAsTargetIfHurt" />
+			<property name="AITarget-2" value="BlockIf" data="condition=alert e 0" />
+			<property name="AITarget-3" value="BlockingTargetTask" />
+			<property name="AITarget-4" value="SetNearestEntityAsTarget" data="class=EntityPlayer,20,15,EntityNPC,15,10" />
+			
+			<property name="ExperienceGain" value="675" />
+			
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="45" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="13" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="22" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5" />
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="1" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1400" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalBearJuvenile" extends="animalBearOmega">
+			<property name="SizeScale" value=".75"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			
+			<property name="ExperienceGain" value="525" />
+			
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="40" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="16" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="4" />
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="1" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1100" />
+			</effect_group>
+		</entity_class>
+		
+		
+		
+		<entity_class name="animalZombieBearBeta" extends="animalZombieBear">
+			<property name="SizeScale" value=".95"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1875" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalZombieBearOmega" extends="animalZombieBear">
+			<property name="SizeScale" value=".9"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			<property name="HandItem" value="meleeHandAnimalZombieBearJuvenile" />
+			
+			<property name="ExperienceGain" value="675" />
+			
+			<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="45" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="13" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="22" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="5" />
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="1" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1750" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalZombieBearJuvenile" extends="animalZombieBearOmega">
+			<property name="SizeScale" value=".75"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			<property name="HandItem" value="meleeHandAnimalZombieBearJuvenile" />
+			
+			<property name="ExperienceGain" value="525" />
+			
+			<drop event="Harvest" name="foodRottingFlesh" tag="butcherHarvest" count="40" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="12" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="16" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="4" />
+			<drop event="Harvest" name="resourceTestosteroneExtract" tag="butcherHarvest" count="1" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="1375" />
+			</effect_group>
+		</entity_class>
+		
+		
+		
+		<entity_class name="animalMountainLionBeta" extends="animalMountainLion">
+			<property name="SizeScale" value="1.33"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="700" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalMountainLionOmega" extends="animalMountainLion">
+			<property name="SizeScale" value="1.26"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			<property name="HandItem" value="meleeHandAnimalDireWolfJuvenile" />
+			
+			<property name="AITask-1" value="Leap" data="legs=4" />
+			<property name="AITask-2" value="BreakBlock" />
+			<property name="AITask-3" value="Territorial" />
+			<property name="AITask-4" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6" />
+			<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,30,EntityPlayer,15,EntityZombie,20" />
+			<property name="AITask-6" value="ApproachSpot" />
+			<property name="AITask-7" value="Look" />
+			<property name="AITask-8" value="Wander" />
+			<property name="AITarget-1" value="SetAsTargetIfHurt" />
+			<property name="AITarget-2" value="BlockingTargetTask" />
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityAnimalStag,0,0,EntityZombie,0,5" />
+			<property name="AITarget-4" value="" />
+			
+			<property name="ExperienceGain" value="675" />
+			
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="22" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="13" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="4" />
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="650" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalMountainLionJuvenile" extends="animalMountainLionOmega">
+			<property name="SizeScale" value="1.05"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			
+			<property name="ExperienceGain" value="525" />
+			
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="20" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="18" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="3" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="12" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="4" />
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="525" />
+			</effect_group>
+		</entity_class>
+		
+		
+		
+		<entity_class name="animalDireWolfBeta" extends="animalDireWolf">
+			<property name="SizeScale" value="1.33"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="700" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalDireWolfOmega" extends="animalDireWolf">
+			<property name="SizeScale" value="1.26"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			<property name="HandItem" value="meleeHandAnimalDireWolfJuvenile" />
+			
+			<property name="AITask-1" value="Leap" data="legs=4" />
+			<property name="AITask-2" value="BreakBlock" />
+			<property name="AITask-3" value="Territorial" />
+			<property name="AITask-4" value="RunawayWhenHurt" data="runChance=0.5;healthPer=0.3;healthPerMax=0.6" />
+			<property name="AITask-5" value="ApproachAndAttackTarget" data="class=EntityAnimalStag,30,EntityPlayer,15,EntityZombie,20" />
+			<property name="AITask-6" value="ApproachSpot" />
+			<property name="AITask-7" value="Look" />
+			<property name="AITask-8" value="Wander" />
+			<property name="AITarget-1" value="SetAsTargetIfHurt" />
+			<property name="AITarget-2" value="BlockingTargetTask" />
+			<property name="AITarget-3" value="SetNearestEntityAsTarget" data="class=EntityPlayer,14,9,EntityAnimalStag,0,0,EntityZombie,0,5" />
+			<property name="AITarget-4" value="" />
+			
+			<property name="ExperienceGain" value="675" />
+			
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="31" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="11" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="13" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="4" />
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="650" />
+			</effect_group>
+		</entity_class>
+		
+		
+		<entity_class name="animalDireWolfJuvenile" extends="animalDireWolf">
+			<property name="SizeScale" value="1.05"/>
+			<property name="HasRagdoll" value="true" />
+			<property name="RagdollOnDeathChance" value="0" />
+			
+			<property name="ExperienceGain" value="525" />
+			
+			<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="28" />
+			<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="10" />
+			<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="2" />
+			<drop event="Harvest" name="resourceBone" tag="butcherHarvest" count="12" />
+			<drop event="Harvest" name="resourceBone" tag="allToolsHarvest" count="4" />
+			<drop event="Harvest" name="foodRawMeat" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceLeather" count="1" tag="WasteTreasuresCompleteHarvest" />
+			<drop event="Harvest" name="resourceBone" count="1" tag="WasteTreasuresCompleteHarvest" />
+			
+			<effect_group name="Base Effects">
+				<passive_effect name="HealthMax" operation="base_set" value="525" />
+			</effect_group>
+		</entity_class>
+		
+	</append>
+	
+</configs>

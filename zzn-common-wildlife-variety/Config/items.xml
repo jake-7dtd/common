@@ -1,0 +1,38 @@
+<configs>
+	
+	<append xpath="/items">
+	
+		<item name="meleeHandAnimalBearJuvenile">
+			<property name="Extends" value="meleeHandAnimalBear" />
+			<property class="Action0">
+				<property name="Range" value="3.2" />
+				<property name="DamageEntity" value="25" />
+				<property name="DamageBlock" value="33" />
+			</property>
+		</item>
+		
+		
+		<item name="meleeHandAnimalZombieBearJuvenile">
+			<property name="Extends" value="meleeHandAnimalZombieBear" />
+			<property class="Action0">
+				<property name="Range" value="3.2" />
+				<property name="DamageEntity" value="42" />
+				<property name="DamageBlock" value="67" />
+			</property>
+		</item>
+		
+		
+		<item name="meleeHandAnimalDireWolfJuvenile">
+			<property name="Extends" value="meleeHandAnimalDireWolf" />
+			<property class="Action0">
+				<property name="Range" value="2.0" />
+				<property name="DamageEntity" value="19" />
+				<property name="DamageBlock" value="24" />
+			</property>
+		</item>
+		
+		
+	</append>
+	
+	
+</configs>
