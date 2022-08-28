@@ -1,0 +1,9 @@
+<configs>
+	
+	<insertAfter xpath="//block[ (starts-with(@name,'decoCarFender')) or (starts-with(@name,'decoCarHood')) or (starts-with(@name,'decoCarTrunk')) ]/property[ (@name='Extends') and (@value='decoEntityPolymerMaster') ]">
+		<property name="Extends" value="decoEntityMetalMaster" param1="RepairItems" />
+	</insertAfter>
+	
+	<remove xpath="//block[ (starts-with(@name,'decoCarFender')) or (starts-with(@name,'decoCarHood')) or (starts-with(@name,'decoCarTrunk')) ]/property[ (@name='Extends') and (@value='decoEntityPolymerMaster') ]" />
+	
+</configs>
