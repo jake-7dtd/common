@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jake's PerkNightStalkerComplete For Machetes (hotfix) for 7dtd" />
+		<Description value="This modlet allows machetes to receive the same bonus damage against sleepers at night knives do. I consider this a bugfix since we're dealing with a book family completion bonus which requires a lot of time and effort. I feel it shouldn't force the player to use an inferior bladed weapon. In mods like Undead Legacy or War of the Walkers this change will additionally give the stealth damage bonus to swords." />
+		<Author value="jake2097152" />
+		<Version value="1.0" />
+		<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-perkNightStalkerComplete-for-machetes-hotfix" />
+	</ModInfo>
+</xml>

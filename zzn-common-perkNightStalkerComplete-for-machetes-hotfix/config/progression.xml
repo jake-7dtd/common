@@ -1,0 +1,5 @@
+<configs>
+	
+		<append xpath="//perks/perk[@name='perkNightStalkerComplete']/effect_group/passive_effect[@name='EntityDamage']/@tags">,machete</append>
+	
+</configs>
