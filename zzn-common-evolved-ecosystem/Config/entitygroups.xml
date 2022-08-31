@@ -1,5 +1,90 @@
 <configs>
 	
+	<setattribute xpath="//entitygroup[@name='EnemyAnimalsDesert']/entity[@name='animalZombieVulture']" name="prob">12
+	</setattribute>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsDesert']">
+		<entity name="animalMountainLion" prob="3"/>		<!--TODO: Does this refer to the entityclass or the entity group?-->
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsDesert']">
+		<entity name="animalWolf" prob="0.6"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsDesert']">
+		<entity name="animalDireWolf" prob="0.15" />
+		<entity name="animalDireWolfBeta" prob="0.15" />
+		<entity name="animalDireWolfOmega" prob="0.15" />
+		<entity name="animalDireWolfJuvenile" prob="0.15" />
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsDesert']">
+		<entity name="animalZombieBear" prob="0.1" />
+		<entity name="animalZombieBearBeta" prob="0.1" />
+		<entity name="animalZombieBearOmega" prob="0.1" />
+		<entity name="animalZombieBearJuvenile" prob="0.1" />
+	</append>
+	
+	
+	
+	<append xpath="//entitygroup[contains(@name, 'EnemyAnimalsSnow')]">	<entity name="animalZombieVulture" prob="1.2"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsSnow']">
+		<entity name="animalZombieBear" prob="0.25" />
+		<entity name="animalZombieBearBeta" prob="0.25" />
+		<entity name="animalZombieBearOmega" prob="0.25" />
+		<entity name="animalZombieBearJuvenile" prob="0.25" />
+	</append>
+	
+	
+	
+	<setattribute xpath="//entitygroup[@name='WildGameForest']/entity[@name='animalBoar']" name="prob">16
+	</setattribute>
+	<setattribute xpath="//entitygroup[@name='WildGameForest']/entity[@name='animalStag']" name="prob">4
+	</setattribute>
+	<setattribute xpath="//entitygroup[@name='WildGameForest']/entity[@name='animalDoe']" name="prob">4
+	</setattribute>
+	<setattribute xpath="//entitygroup[@name='WildGameForest']/entity[@name='animalWolf']" name="prob">2
+	</setattribute>
+	<append xpath="//entitygroup[@name='WildGameForest']">
+		<entity name="animalCoyote" prob="0.5"/>
+	</append>
+	
+	<set xpath="//entitygroup[@name='EnemyAnimalsForest']/entity[@name='none']/@prob">75</set>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsForest']">
+		<entity name="animalSnake" prob="2"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsForest']">
+		<entity name="animalCoyote" prob="2"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsForest']">
+		<entity name="animalZombieVulture" prob="1.2" />
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsForest']">
+		<entity name="animalMountainLion" prob="0.15"/>
+		<entity name="animalMountainLionBeta" prob="0.15"/>
+		<entity name="animalMountainLionOmega" prob="0.15"/>
+		<entity name="animalMountainLionJuvenile" prob="0.15"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsForest']">
+		<entity name="animalZombieBear" prob="0.1" />
+		<entity name="animalZombieBearBeta" prob="0.1" />
+		<entity name="animalZombieBearOmega" prob="0.1" />
+		<entity name="animalZombieBearJuvenile" prob="0.1" />
+	</append>
+	
+	
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
+		<entity name="animalZombieVulture" prob="1.2" />
+	</append>
+	
 	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
 		<entity name="animalBear" prob="0.15" />
 		<entity name="animalBearBeta" prob="0.15" />
@@ -8,8 +93,17 @@
 	</append>
 	
 	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
-		<entity name="animalWolf" prob="0.4" />
+		<entity name="animalWolf" prob="3" />
 	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
+		<entity name="animalMountainLion" prob="0.15"/>
+		<entity name="animalMountainLionBeta" prob="0.15"/>
+		<entity name="animalMountainLionOmega" prob="0.15"/>
+		<entity name="animalMountainLionJuvenile" prob="0.15"/>
+	</append>
+	
+	
 	
 	<append xpath="//entitygroup[@name='EnemyAnimalsWasteland']">
 		<entity name="animalBear" prob="1" />
@@ -17,5 +111,28 @@
 		<entity name="animalBearOmega" prob="1" />
 		<entity name="animalBearJuvenile" prob="1" />
 	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="animalCoyote" prob="2.4"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="animalWolf" prob="1.2"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="animalMountainLion" prob="0.4"/>
+		<entity name="animalMountainLionBeta" prob="0.2"/>
+		<entity name="animalMountainLionOmega" prob="0.2"/>
+		<entity name="animalMountainLionJuvenile" prob="0.2"/>
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsWasteland']">
+		<entity name="animalDireWolf" prob="0.15" />
+		<entity name="animalDireWolfBeta" prob="0.15" />
+		<entity name="animalDireWolfOmega" prob="0.15" />
+		<entity name="animalDireWolfJuvenile" prob="0.15" />
+	</append>
+	
 	
 </configs>
