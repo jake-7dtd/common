@@ -67,13 +67,6 @@
 		<entity name="animalZombieBearJuvenile" prob="0.65" />
 	</append>
 	
-	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
-		<entity name="animalBear" prob="0.1" />
-		<entity name="animalBearBeta" prob="0.1" />
-		<entity name="animalBearOmega" prob="0.1" />
-		<entity name="animalBearJuvenile" prob="0.1" />
-	</append>
-	
 	<set xpath="//entitygroup[@name='EnemyAnimalsBurntForest']/entity[@name='animalDireWolf']/@prob">0.65</set>
 	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
 		<entity name="animalDireWolfBeta" prob="0.65" />
@@ -90,13 +83,6 @@
 		<entity name="animalZombieBearBeta" prob="4" />
 		<entity name="animalZombieBearOmega" prob="4" />
 		<entity name="animalZombieBearJuvenile" prob="4" />
-	</append>
-	
-	<append xpath="//entitygroup[@name='EnemyAnimalsWasteland']">
-		<entity name="animalBear" prob="1" />
-		<entity name="animalBearBeta" prob="1" />
-		<entity name="animalBearOmega" prob="1" />
-		<entity name="animalBearJuvenile" prob="1" />
 	</append>
 	
 	<set xpath="//entitygroup[@name='WolfPack']/entity[@name='animalDireWolf']/@prob">0.125</set>

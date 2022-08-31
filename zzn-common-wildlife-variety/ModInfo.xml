@@ -2,9 +2,9 @@
 <xml>
 	<ModInfo>
 		<Name value="Jake's Wildlife Variety for 7dtd" />
-		<Description value="Apex predators (Dire wolves, mountain lions and bears) come in more sizes now." />
+		<Description value="Apex predators (Dire wolves, mountain lions and bears) come in more sizes now. Unless used in conjunction with the Evolved Ecosystem modlet, an unnoticably slight decrease in zombie bear population will occur." />
 		<Author value="jake2097152" />
-		<Version value="1.1" />
+		<Version value="1.3" />
 		<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-wildlife-variety" />
 	</ModInfo>
 </xml>

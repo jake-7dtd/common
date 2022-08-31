@@ -60,7 +60,7 @@
 		
 		
 		<entity_class name="animalBearJuvenile" extends="animalBearOmega">
-			<property name="SizeScale" value=".75"/>
+			<property name="SizeScale" value=".8"/>
 			<property name="HasRagdoll" value="true" />
 			<property name="RagdollOnDeathChance" value="0" />
 			<property name="PhysicsBody" value="bearJuvenile"/>
@@ -120,7 +120,7 @@
 		
 		
 		<entity_class name="animalZombieBearJuvenile" extends="animalZombieBearOmega">
-			<property name="SizeScale" value=".75"/>
+			<property name="SizeScale" value=".8"/>
 			<property name="HasRagdoll" value="true" />
 			<property name="RagdollOnDeathChance" value="0" />
 			<property name="HandItem" value="meleeHandAnimalZombieBearJuvenile" />
@@ -196,7 +196,7 @@
 		
 		
 		<entity_class name="animalMountainLionJuvenile" extends="animalMountainLionOmega">
-			<property name="SizeScale" value="1.05"/>
+			<property name="SizeScale" value="1.12"/>
 			<property name="HasRagdoll" value="true" />
 			<property name="RagdollOnDeathChance" value="0" />
 			<property name="PhysicsBody" value="MountainLionJuvenile"/>
@@ -274,7 +274,7 @@
 		
 		
 		<entity_class name="animalDireWolfJuvenile" extends="animalDireWolfOmega">
-			<property name="SizeScale" value="1.05"/>
+			<property name="SizeScale" value="1.12"/>
 			<property name="HasRagdoll" value="true" />
 			<property name="RagdollOnDeathChance" value="0" />
 			<property name="PhysicsBody" value="wolfJuvenile"/>
