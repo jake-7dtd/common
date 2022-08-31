@@ -1,10 +1,14 @@
 <configs>
 	
 	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
-		<entity name="animalBear" prob="0.1" />
-		<entity name="animalBearBeta" prob="0.1" />
-		<entity name="animalBearOmega" prob="0.1" />
-		<entity name="animalBearJuvenile" prob="0.1" />
+		<entity name="animalBear" prob="0.15" />
+		<entity name="animalBearBeta" prob="0.15" />
+		<entity name="animalBearOmega" prob="0.15" />
+		<entity name="animalBearJuvenile" prob="0.15" />
+	</append>
+	
+	<append xpath="//entitygroup[@name='EnemyAnimalsBurntForest']">
+		<entity name="animalWolf" prob="0.4" />
 	</append>
 	
 	<append xpath="//entitygroup[@name='EnemyAnimalsWasteland']">
