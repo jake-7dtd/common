@@ -13,4 +13,10 @@
 		<triggered_effect trigger="onSelfEquipStop" action="ModifyScreenEffect" intensity="0" fade="0" effect_name="Grayscale"/>
 	</insertBefore>
 	
+	<append xpath="/items">
+		<item name="ulmResourceNutsAndBolts"><property name="Weight" value="2" /></item>
+		<item name="ulmResourceHingeBrass"><property name="Extends" value="resourceMechanicalParts" /></item>
+		<item name="ulmResourceScrapWires"><property name="Extends" value="resourceMechanicalParts" /></item>
+	</append>
+	
 	</configs>

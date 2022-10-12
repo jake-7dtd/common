@@ -1,7 +1,7 @@
 <configs>
 	
 	<append xpath="/recipes">
-		<recipe name="jakeModArmorNightVision" count="1" craft_area="toolWorkstation" time="10">
+		<recipe name="jakeModArmorNightVision" count="1" craft_area="workbench" time="10">
 			<ingredient name="apparelNightvisionGoggles" count="1" />
 			<ingredient name="resourceForgedSteel" count="5" />
 			<ingredient name="resourceScrapPolymers" count="2" />
