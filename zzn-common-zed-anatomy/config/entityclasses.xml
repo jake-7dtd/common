@@ -23,15 +23,15 @@
 	<append xpath="//entity_class[@name='playerMale']">
 		<effect_group>
 		
-			<passive_effect name="DamageModifier" operation="perc_add" value="2.1" tags="head">
+			<passive_effect name="DamageModifier" operation="perc_add" value="1.9" tags="head">
 				<requirement name="EntityTagCompare" target="other" tags="jake_zdr67"/>
 			</passive_effect>
 			
-			<passive_effect name="DamageModifier" operation="perc_add" value="1.9" tags="head">
+			<passive_effect name="DamageModifier" operation="perc_add" value="1.7" tags="head">
 				<requirement name="EntityTagCompare" target="other" tags="jakez_dr42"/>
 			</passive_effect>
 			
-			<passive_effect name="DamageModifier" operation="perc_add" value="1.7" tags="head">
+			<passive_effect name="DamageModifier" operation="perc_add" value="1.5" tags="head">
 				<requirement name="EntityTagCompare" target="other" tags="jake_zdr22"/>
 			</passive_effect>
 			
