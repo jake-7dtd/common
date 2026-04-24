@@ -1,0 +1,4 @@
+﻿<configs> 
+	<set xpath="//item[@name='casinoCoin']/property[@name='Stacknumber']/@value">100000</set>
+	<set xpath="//item[@name='oldCash']/property[@name='Stacknumber']/@value">100000</set>
+</configs>
