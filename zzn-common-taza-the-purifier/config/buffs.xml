@@ -1,0 +1,8 @@
+<configs>
+	<insertBefore xpath="//buff[ (@name='buffTazasWrath') or (@name='buffTazasWrath2') ]/effect_group/passive_effect[@name='EntityDamage']">
+		<requirement name="EntityTagCompare" target="other" tags="zombie,mutant,demon" />
+	</insertBefore>
+	<setattribute xpath="//buff[ (@name='buffTazasWrath') or (@name='buffTazasWrath2') ]/effect_group/passive_effect[@name='EntityDamage']" name="value">2</setattribute>
+	<append xpath="//buff[ (@name='buffTazasWrath') or (@name='buffTazasWrath2') ]/effect_group/passive_effect[@name='EntityDamage']/@tags">,perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkArchery,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,perkDemolitionsExpert
+	</append>
+</configs>
