@@ -5,7 +5,7 @@
   <recipe name="resourceRepairKit" count="1">
     <ingredient name="resourceMechanicalParts" count="1" />
     <ingredient name="resourceElectricParts" count="1" />
-    <ingredient name="resourceSpring" count="1" />
+    <ingredient name="resourceForgedIron" count="1" />
     <ingredient name="resourceDuctTape" count="1" />
     <ingredient name="resourceOil" count="1" />
   </recipe>
