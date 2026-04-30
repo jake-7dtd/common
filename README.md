@@ -1,2 +1,2 @@
-# common
-modlets meant to work with vanilla 7DTD, Darkness Falls, War of the Walkers, Undead Legacy and War3zuk
+# vanilla
+modlets meant to work with unmodded 7 Days to Die
