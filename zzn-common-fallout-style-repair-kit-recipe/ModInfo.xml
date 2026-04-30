@@ -5,6 +5,6 @@
 	<Version value="1.2.0.0" /> <!-- (Required) SemVer version of the mod. Has to be in the format major.minor[.build[.revision]] (i.e. build and revision can be left out, recommend using them though as typically done with Semantic Versioning -->
 	<Description value="This modlet changes the repair kit recipe." /> <!-- (Optional) More text to show on UIs -->
 	<Author value="jake2097152" /> <!-- (Optional) Name(s) of the author(s) -->
-	<Website value="" /> <!-- (Optional) URL of a website of the mod -->
+	<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-fallout-style-repair-kit-recipe" /> <!-- (Optional) URL of a website of the mod -->
 	<SkipWithAntiCheat value="false" />
 </xml>
