@@ -1,3 +1,0 @@
-<configs>
-	<remove xpath="/blocks/block[@name='ladderSteel']/property[@name='DowngradeBlock']" />
-</configs>

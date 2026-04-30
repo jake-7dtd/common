@@ -1,2 +1,0 @@
-Key,english
-jakeModArmorNightVision,Night Vision Goggles Helmet Mod

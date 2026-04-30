@@ -1,9 +1,0 @@
-<xml>
-	<Name value="jake-df-style-nvgs-for-7-days-to-die" /> <!-- (Required) Internal name, like an ID, of the mod. Should be globally unique, like an author prefix + name. Only allowed chars: Numbers, latin letters, underscores, dash -->
-	<DisplayName value="Jake's DF-Style NVGs for 7 Days to Die" /> <!-- (Required) Name used for display purposes, like shown in the mods UI at some point. Could be the same as you would later on use on workshop or wherever mods get distributed -->
-	<Version value="1.1.0.0" /> <!-- (Required) SemVer version of the mod. Has to be in the format major.minor[.build[.revision]] (i.e. build and revision can be left out, recommend using them though as typically done with Semantic Versioning -->
-	<Description value="The modlet changes the night vision goggles effect to a less eye-straining from Khaine's wonderful mod Darkness Falls." /> <!-- (Optional) More text to show on UIs -->
-	<Author value="jake2097152" /> <!-- (Optional) Name(s) of the author(s) -->
-	<Website value="" /> <!-- (Optional) URL of a website of the mod -->
-	<SkipWithAntiCheat value="false" />
-</xml>
