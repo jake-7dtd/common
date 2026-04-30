@@ -1,0 +1,4 @@
+<configs>
+	<remove xpath="//window[@name='newsScreen']/news_box[@name='featured']" />
+	<remove xpath="//window[@name='newsScreen']/news_box[@name='game']" />
+</configs>
