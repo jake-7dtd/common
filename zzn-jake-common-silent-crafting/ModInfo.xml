@@ -5,6 +5,6 @@
 	<Version value="1.1.0.0" /> <!-- (Required) SemVer version of the mod. Has to be in the format major.minor[.build[.revision]] (i.e. build and revision can be left out, recommend using them though as typically done with Semantic Versioning -->
 	<Description value="This modlet disables the various sound effects played on item creation. No more spammy Cement Micer or Chem Station!" /> <!-- (Optional) More text to show on UIs -->
 	<Author value="jake2097152" /> <!-- (Optional) Name(s) of the author(s) -->
-	<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-silent-crafting" /> <!-- (Optional) URL of a website of the mod -->
+	<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-jake-common-silent-crafting" /> <!-- (Optional) URL of a website of the mod -->
 	<SkipWithAntiCheat value="false" />
 </xml>

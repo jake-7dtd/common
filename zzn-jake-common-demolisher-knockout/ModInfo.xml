@@ -5,6 +5,6 @@
 	<Version value="1.2.0.0" /> <!-- (Required) SemVer version of the mod. Has to be in the format major.minor[.build[.revision]] (i.e. build and revision can be left out, recommend using them though as typically done with Semantic Versioning -->
 	<Description value="The modlet gives demolisher attacks 8% chance to knock the player out for 5 seconds." /> <!-- (Optional) More text to show on UIs -->
 	<Author value="jake2097152" /> <!-- (Optional) Name(s) of the author(s) -->
-	<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-demolisher-knockout" /> <!-- (Optional) URL of a website of the mod -->
+	<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-jake-common-demolisher-knockout" /> <!-- (Optional) URL of a website of the mod -->
 	<SkipWithAntiCheat value="false" />
 </xml>
