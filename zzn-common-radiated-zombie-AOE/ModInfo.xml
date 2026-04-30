@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="jake-radiated-zombie-aoe-for-7-days-to-die" /> <!-- (Required) Internal name, like an ID, of the mod. Should be globally unique, like an author prefix + name. Only allowed chars: Numbers, latin letters, underscores, dash -->
+	<DisplayName value="Jake's Radiated Zombie AOE for 7 Days to Die" /> <!-- (Required) Name used for display purposes, like shown in the mods UI at some point. Could be the same as you would later on use on workshop or wherever mods get distributed -->
+	<Version value="1.1.0.0" /> <!-- (Required) SemVer version of the mod. Has to be in the format major.minor[.build[.revision]] (i.e. build and revision can be left out, recommend using them though as typically done with Semantic Versioning -->
+	<Description value="The modlet gives radiated zombies an area-of-effect damage-over-time effect against the player." /> <!-- (Optional) More text to show on UIs -->
+	<Author value="jake2097152" /> <!-- (Optional) Name(s) of the author(s) -->
+	<Website value="https://github.com/jake-7dtd/common/tree/main/zzn-common-radiated-AOE" /> <!-- (Optional) URL of a website of the mod -->
+	<SkipWithAntiCheat value="false" />
+</xml>
+
