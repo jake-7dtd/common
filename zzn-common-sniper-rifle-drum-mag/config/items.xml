@@ -1,0 +1,6 @@
+<configs>
+	
+	<append xpath="//item[@name='gunRifleT3SniperRifle']/property[@name='Tags']/@value">,drumMagazine</append>
+	
+</configs>
+
