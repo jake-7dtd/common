@@ -1,5 +1,0 @@
-<configs>
-
-	<set xpath="//SoundDataNode[@name='craft_complete_item']/AudioClip/@ClipName">Sounds/DestroyBlock/clothdestroy1</set>
-
-</configs>

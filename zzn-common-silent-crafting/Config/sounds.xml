@@ -1,0 +1,8 @@
+<configs>
+
+	<set xpath="//SoundDataNode[@name='craft_complete_item']/AudioClip/@ClipName">@:Sounds/nada.wav</set>
+	<set xpath="//SoundDataNode[@name='cement_mixer_complete']/AudioClip/@ClipName">@:Sounds/nada.wav</set>
+	<set xpath="//SoundDataNode[@name='forge_item_complete']/AudioClip/@ClipName">@:Sounds/nada.wav</set>
+	<set xpath="//SoundDataNode[@name='chem_station_complete_item']/AudioClip/@ClipName">@:Sounds/nada.wav</set>
+
+</configs>
