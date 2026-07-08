@@ -1,4 +1,5 @@
 <configs>
-	<remove xpath="//window[@name='newsScreen']/news_box[@name='featured']" />
-	<remove xpath="//window[@name='newsScreen']/news_box[@name='game']" />
+	<remove xpath="//window[@name='newsScreen']/news_box[@sources='rfs://News.xml']" />
+	<remove xpath="//window[@name='newsScreen']/news_box[@sources='rfs://NewsFeatured.xml']" />
+	<remove xpath="//window[@name='mainMenuNews']" />
 </configs>
