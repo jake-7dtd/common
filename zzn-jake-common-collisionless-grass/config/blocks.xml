@@ -16,7 +16,7 @@
 	</append>
 	
 	<append xpath="//block[ not(starts-with(@name, 'plantedMushroom3Harvest')) and ( (starts-with(@name, 'planted')) and ((substring(@name, string-length(@name) - string-length('Harvest') + 1) = 'Harvest') or (substring(@name, string-length(@name) - string-length('HarvestPlayer') + 1) = 'HarvestPlayer')) ) ]">
-		<drop event="Harvest" name="resourceYuccaFibers" count="2" />
+		<drop event="Harvest" name="resourceYuccaFibers" count="1,2" tag="allHarvest,perkJunkMiner" />
 	</append>
 	
 </configs>
