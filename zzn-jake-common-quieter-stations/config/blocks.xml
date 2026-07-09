@@ -1,14 +1,14 @@
 <configs>
 	
-	<setattribute xpath="//block[@name='wallTorchLightPlayer']/property[@name='HeatMapStrength']" name="value">.1</setattribute>
-	<setattribute xpath="//block[@name='candleWallLightPlayer']/property[@name='HeatMapStrength']" name="value">.05</setattribute>
-	<setattribute xpath="//block[@name='burningBarrelPlayer']/property[@name='HeatMapStrength']" name="value">.1</setattribute>
-	<setattribute xpath="//block[@name='cntApiary']/property[@name='HeatMapStrength']" name="value">.08</setattribute>
-	<setattribute xpath="//block[@name='campfire']/property[@name='HeatMapStrength']" name="value">.5</setattribute>
-	<setattribute xpath="//block[@name='cntDewCollector']/property[@name='HeatMapStrength']" name="value">.08</setattribute>
-	<setattribute xpath="//block[@name='forge']/property[@name='HeatMapStrength']" name="value">.6</setattribute>
-	<setattribute xpath="//block[@name='workbench']/property[@name='HeatMapStrength']" name="value">.5</setattribute>
-	<setattribute xpath="//block[@name='cementMixer']/property[@name='HeatMapStrength']" name="value">.5</setattribute>
-	<setattribute xpath="//block[@name='chemistryStation']/property[@name='HeatMapStrength']" name="value">.5</setattribute>
+	<setattribute xpath="//block[@name='wallTorchLightPlayer']/property[@name='HeatMapStrength']" name="value">.25</setattribute>
+	<setattribute xpath="//block[@name='candleWallLightPlayer']/property[@name='HeatMapStrength']" name="value">.125</setattribute>
+	<setattribute xpath="//block[@name='burningBarrelPlayer']/property[@name='HeatMapStrength']" name="value">.25</setattribute>
+	<setattribute xpath="//block[@name='cntApiary']/property[@name='HeatMapStrength']" name="value">.2</setattribute>
+	<setattribute xpath="//block[@name='campfire']/property[@name='HeatMapStrength']" name="value">1.25</setattribute>
+	<setattribute xpath="//block[@name='cntDewCollector']/property[@name='HeatMapStrength']" name="value">.2</setattribute>
+	<setattribute xpath="//block[@name='forge']/property[@name='HeatMapStrength']" name="value">1.5</setattribute>
+	<setattribute xpath="//block[@name='workbench']/property[@name='HeatMapStrength']" name="value">1.25</setattribute>
+	<setattribute xpath="//block[@name='cementMixer']/property[@name='HeatMapStrength']" name="value">1.25</setattribute>
+	<setattribute xpath="//block[@name='chemistryStation']/property[@name='HeatMapStrength']" name="value">1.25</setattribute>
 	
 </configs>
